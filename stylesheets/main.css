@@ -5,4 +5,24 @@ body {
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 16px;
     line-height: 1.5;
-    color: #606c71; }
+    color: #626262;
+    /*background-color: #5D96C7;*/
+}
+
+.navbar.no-margin {
+    margin-bottom: 0 !important;
+}
+
+.navbar-inverse.navbar-theme {
+    background-image: linear-gradient(to bottom, #2e6da4 0, #337ab7 100%);
+    border-color: #337AB7;
+}
+
+.navbar-inverse.navbar-theme .navbar-brand, .navbar-inverse.navbar-theme .navbar-nav > li > a {
+    color: #cccaaa;
+}
+
+.navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover {
+    color: #ffffff;
+    background-color: transparent;
+}
