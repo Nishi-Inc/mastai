@@ -26,3 +26,16 @@ body {
     color: #ffffff;
     background-color: transparent;
 }
+
+.navbar-inverse.navbar-theme .navbar-collapse, .navbar-inverse.navbar-theme .navbar-form, .navbar-inverse.navbar-theme .navbar-toggle {
+    border-color: #286090;
+}
+
+.navbar-inverse.navbar-theme .navbar-toggle:focus, .navbar-inverse.navbar-theme .navbar-toggle:hover {
+    background-color: #337ab7;
+}
+
+.carousel-inner img {
+    width: 1200px;
+    height: 600px !important;
+}
